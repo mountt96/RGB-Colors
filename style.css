@@ -1,0 +1,107 @@
+html{
+     background: url(images/rainbowBG.jpg);
+     background-size: cover;
+}
+
+h1{
+    size: 42px;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body{
+    margin: auto;
+    padding: auto;
+    max-width: 500px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#red {
+    color: white;
+    background-color: red;
+    width: 50px;
+}
+
+#green {
+    color: white;
+    background-color: green;
+    width: 50px;
+}
+
+#blue {
+    color: white;
+    background-color: blue;
+    width: 50px;
+}
+
+#Black {
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+#white {
+    border-radius: 3px;
+}
+
+#Black:hover {
+    opacity: 0.5;
+}
+#white:hover {
+    opacity: 0.5;
+}
+
+.yellow-box { 
+    border: 20px;
+    border-color: brown;
+    width: 400px;
+    height: 200px;
+    background-color: yellow;
+    border: 3px solid grey;
+  }
+  
+#container{
+margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#rgbl {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#prv {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#prv.hover {
+    border: 1px solid black;
+}
+
+#end{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+#wiki {
+    text-decoration: none;
+    color: blue;
+}
+
+#para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
